@@ -18,10 +18,42 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 </head>
 <body>
-    <div class="container bg-success">HOLA MUNDO EN BOOTSTRAP 5.2.3</div>
-    <br>
-    <div class="container-fluid p-0 bg-dark text-warning text-center">Container fluid</div>
+    <!--    NAVBAR      -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/bad-dog-studio-logo.png" alt="Studio Bad Dog Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#sitios" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sitios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">Ultimos Sitios</a></li>
+                            <li><a class="dropdown-item" href="">Sitio Single Page</a></li>
+                            <li><a class="dropdown-item" href="">Sitio Multi Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Comencemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">¿Interesado?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!--    BOOTSTRAP JavaScript    -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
 </body>
 </html>
