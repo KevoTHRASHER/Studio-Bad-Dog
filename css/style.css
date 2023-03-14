@@ -27,9 +27,9 @@
     color: white;
 }
 
-a .nav-link:hover {
-    color: white
-
+.navbar a.nav-link:hover {
+    color: white;
+    background-color: rgb(217, 0, 98);
 }
 
 /*     SECCION MAIN     */
@@ -38,11 +38,17 @@ main {
     background-image: linear-gradient(rgba(28, 118, 173, 0.92), rgba(83, 184, 152, 1));
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-
+/*      CONTAINER CARDS     */
+.bg-card-main {
+    background-color: rgb(80, 20, 100);
 }
+
+/*      FOOTER      */
+.footer-bg-color {
+    background-color: rgb(20, 25, 45);
+}
+
+
 
 
 /*      MEDIA QUERIES Mobile First Default Bootstrap
