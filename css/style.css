@@ -1,6 +1,18 @@
+@font-face {
+    font-family: "Raleway Regular";
+    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Raleway Regular";
+}
+
 /*      NAVBAR      */
 .navbar {
     background-color: rgb(20, 25, 45);
+    font-weight: bold;
 }
 
 .navbar-brand img {
@@ -15,7 +27,6 @@
 .navbar-toggler-icon:hover {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
-
 
 .nav-link {
     color: rgb(217, 0, 98);
@@ -32,8 +43,18 @@
     background-color: rgb(217, 0, 98);
 }
 
+.dropdown-menu li a {
+    color: rgb(217, 0, 98);
+    font-weight: bold;
+}
+
+.dropdown-menu li a:hover {
+    color: rgb(80, 20, 100);
+    font-weight: bold;
+}
+
 /*     SECCION MAIN     */
-main {
+.main-bg-gradient-blue-green {
     background-color: rgb(83, 184, 152);
     background-image: linear-gradient(rgba(28, 118, 173, 0.92), rgba(83, 184, 152, 1));
 }
@@ -49,11 +70,15 @@ main {
 }
 
 .footer-parrafo {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
 }
 
+/*      COMENCEMOS PAGE         */
 
+span {
+    color: pink;
+}
 
 /*      MEDIA QUERIES Mobile First Default Bootstrap
 
