@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Raleway Bold";
+    src: url('fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 * {
     font-family: "Raleway Regular";
 }
@@ -12,7 +18,6 @@
 /*      NAVBAR      */
 .navbar {
     background-color: rgb(20, 25, 45);
-    font-weight: bold;
 }
 
 .navbar-brand img {
@@ -31,7 +36,7 @@
 .nav-link {
     color: rgb(217, 0, 98);
     font-size: 1.1rem;
-    font-weight: bold;
+    font-family: "Raleway Bold";
 }
 
 .navbar .nav-link.active {
@@ -69,13 +74,7 @@
     background-color: rgb(20, 25, 45);
 }
 
-.footer-parrafo {
-    font-size: 14px;
-    font-weight: normal;
-}
-
 /*      COMENCEMOS PAGE         */
-
 span {
     color: pink;
 }
