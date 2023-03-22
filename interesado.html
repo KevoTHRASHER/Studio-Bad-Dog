@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevo.THRASHER">
+    <meta name="description" content="Página Web de Estudio de Desarrollo Web">
+    <meta name="keywords" content="Studio Bad Dog, HTML, CSS, Bootstrap">
+    <title>Studio Bad Dog</title>
+    <!--    SHORTCUT ICON   -->
+    <link rel="shortcut icon" href="css/bootstrap-icons/person-workspace.svg" type="image/x-icon" media="all">
+    <!--    BOOTSTRAP CSS   -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <!--    BOOTSTRAP ICONS     -->
+    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" type="text/css" media="all">
+    <!--    STYLE CSS   -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body>
+    <!--    NAVBAR  -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/bad-dog-studio-logo.png" alt="Studio Bad Dog Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#sitios" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sitios</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="">Últimos Proyectos</a>
+                                <a class="dropdown-item" href="">Sitio <i>Single Page</i></a>
+                                <a class="dropdown-item" href="">Sitio <i>Multi Page</i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comencemos.html">Comencemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="interesado.html">¿Interesado?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--    MAIN    -->
+    <main class="bg-light pt-5">
+        <div class="container">
+            <div class="row text-center">
+                <h1>¿Interesado?</h1>
+                <p class="fs-5">¡Enviame tus comentarios!</p>
+                <p class="fs-5">Para más información, puedes contactarme en <a href="mailto:rosxhead@gmail.com">rosxhead@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <section class="row">
+                <div class="col-12 col-lg-6">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="mb-3">
+                        <label class="form-label" for="formInteresado">Nombre:</label>
+                        <input class="form-control" type="text" id="nombreFormInteresado" placeholder="Tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="formInteresado">Em@il:</label>
+                        <input class="form-control" type="email" id="emailFormInteresado" placeholder="Tu correo electronico">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="formInteresado">Comentarios:</label>
+                        <textarea class="form-control" id="comentariosFormInteresado" cols="30" rows="5" placeholder="Déjanos tus comentarios"></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-success mb-3 fs-4">Enviar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--    FOOTER  -->
+    <footer class="footer-bg-color text-white p-1 absolute-bottom">
+        <div class="container text-center">
+            <nav class="d-flex justify-content-evenly">
+                <a href="">
+                    <i class="bi bi-facebook fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-twitter fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-github fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-youtube fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-instagram fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-messenger fs-3"></i>
+                </a>
+                <a href="" target="_blank"><i class="bi bi-whatsapp fs-3"></i>
+                </a>
+            </nav>
+            <p class="text-center"><small>&copy; 2023 @jonmircha. Hecho con fines educativos, tomando inspiración del sitio Studio Corvus.</small></p>
+        </div>
+    </footer>
+    <!--    BOOTSTRAP JavaScript BUNDLE MIN     -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
