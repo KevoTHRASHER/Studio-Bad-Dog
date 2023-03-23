@@ -58,15 +58,34 @@
     <!--    MAIN    -->
     <main class="bg-light pt-5">
         <div class="container">
-            <div class="row text-center">
+            <section class="row text-center">
                 <h1>¿Interesado?</h1>
                 <p class="fs-5">¡Enviame tus comentarios!</p>
                 <p class="fs-5">Para más información, puedes contactarme en <a href="mailto:rosxhead@gmail.com">rosxhead@gmail.com</a></p>
-            </div>
+            </section>
         </div>
         <div class="container">
             <section class="row">
-                <div class="col-12 col-lg-6">
+                <article class="col-12 col-lg-6 order-lg-1">
+                    <form action="" class="mb-3">
+                        <div class="mb-3">
+                            <label class="form-label" for="formInteresado">Nombre:</label>
+                            <input class="form-control" type="text" id="nombreFormInteresado" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formInteresado">Em@il:</label>
+                            <input class="form-control" type="email" id="emailFormInteresado" placeholder="Tu correo electronico">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formInteresado">Comentarios:</label>
+                            <textarea class="form-control" id="comentariosFormInteresado" cols="30" rows="5" placeholder="Déjanos tus comentarios"></textarea>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-success mb-3 fs-4">Enviar</button>
+                        </div>
+                    </form>
+                </article>
+                <article class="col-12 col-lg-6">
                     <div class="ratio ratio-16x9 align-items-center">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.3597085880115!2d-95.19357324895624!3d16.201936888744083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85bfe5ce158b33f7%3A0x25652702ec70e7a6!2sCondominios%20De%20La%20Petrolera!5e0!3m2!1sen!2smx!4v1679508471836!5m2!1sen!2smx"
                         width="600"
@@ -77,31 +96,14 @@
                         referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="mb-3">
-                        <label class="form-label" for="formInteresado">Nombre:</label>
-                        <input class="form-control" type="text" id="nombreFormInteresado" placeholder="Tu nombre">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="formInteresado">Em@il:</label>
-                        <input class="form-control" type="email" id="emailFormInteresado" placeholder="Tu correo electronico">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="formInteresado">Comentarios:</label>
-                        <textarea class="form-control" id="comentariosFormInteresado" cols="30" rows="5" placeholder="Déjanos tus comentarios"></textarea>
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-success mb-3 fs-4">Enviar</button>
-                    </div>
-                </div>
+                </article>
             </section>
         </div>
         <div class="carousel slide" id="carouselInteresado">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/about-1.jpg" class="d-block w-100" alt="Carousel Imagen 1">
-                    <div class="carousel-caption ">
+                    <div class="carousel-caption bg-carousel-caption">
                         <h4><b>Kevo.THRASHER</b></h4>
                         <h5>Desarrollador Web</h5>
                         <p class="d-none d-md-block">Comence a crear sitios y aplicaciones wev en <b>2004</b>.</p>
