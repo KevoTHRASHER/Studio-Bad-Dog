@@ -45,11 +45,11 @@
 
 .navbar a.nav-link:hover {
     color: white;
-    background-color: rgb(217, 0, 98);
+    background-color: rgba(217, 0, 98, 1);
 }
 
 .dropdown-menu li a {
-    color: rgb(217, 0, 98);
+    color: rgba(217, 0, 98, 1);
     font-weight: bold;
 }
 
@@ -84,7 +84,7 @@ footer i.bi:hover {
 
 /*      COMENCEMOS PAGE         */
 span {
-    color: pink;
+    color: rgba(217, 0, 98, 1);
 }
 
 .bg-carousel-caption {
@@ -108,6 +108,17 @@ p a:hover {
     color: rgba(217, 0, 98, 1);
 }
 
+.bg-color-main {
+    rgba(245, 245, 245, 0.75);
+}
+
+/*      SECCION HERO-SITIOS     */
+.hero-single-page {
+    background-image: url("../img/site-singlepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /*      MEDIA QUERIES Mobile First Default Bootstrap
 
